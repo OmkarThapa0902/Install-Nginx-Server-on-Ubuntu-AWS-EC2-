@@ -33,8 +33,9 @@ ssh -i your-key.pem ubuntu@YOUR_PUBLIC_IP
 sudo apt update -y
 sudo apt upgrade -y
 ```
-
+![Step 1 Screenshot](1.png)
 ---
+
 
 ### Step 4: Install Nginx
 
@@ -60,7 +61,7 @@ Check service:
 ```bash
 sudo systemctl status nginx
 ```
-
+![Step 2 Screenshot](2.png)
 ---
 
 ### Step 7: Test in Your Browser
@@ -72,5 +73,5 @@ http://YOUR_PUBLIC_IP
 ```
 
 You should see the default **Nginx Welcome Page**.
-
+![Step 3 Screenshot](3.png)
 Your Nginx server is now running successfully.
